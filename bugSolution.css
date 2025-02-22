@@ -1,0 +1,19 @@
+/* bug.css */
+.container {
+  width: 500px;
+}
+
+.box {
+  width: calc(50% - 10px);
+  background-color: lightblue;
+}
+
+/* bugSolution.css */
+.container {
+  width: 500px;
+}
+
+.box {
+  width: calc(50vw - 10px); /* Use vw units for a more stable result */
+  background-color: lightgreen;
+} 
